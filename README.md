@@ -54,19 +54,19 @@ Close your session.
 Part 2: Design Your Climate App
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
 
-/
+1. /
 
 Start at the homepage.
 
 List all the available routes.
 
-/api/v1.0/precipitation
+2. /api/v1.0/precipitation
 
 Convert the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
 
 Return the JSON representation of your dictionary.
 
-/api/v1.0/stations
+3. /api/v1.0/stations
 
 Return a JSON list of stations from the dataset.
 /api/v1.0/tobs
