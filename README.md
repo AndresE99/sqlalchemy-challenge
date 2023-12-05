@@ -69,13 +69,14 @@ Return the JSON representation of your dictionary.
 3. /api/v1.0/stations
 
 Return a JSON list of stations from the dataset.
-/api/v1.0/tobs
+
+4. /api/v1.0/tobs
 
 Query the dates and temperature observations of the most-active station for the previous year of data.
 
 Return a JSON list of temperature observations for the previous year.
 
-/api/v1.0/<start> and /api/v1.0/<start>/<end>
+5. /api/v1.0/<start> and /api/v1.0/<start>/<end>
 
 Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 
